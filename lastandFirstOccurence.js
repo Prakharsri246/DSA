@@ -55,3 +55,6 @@ let first=firstOcc(arr,len,key)
 let last = lastOcc(arr,len,key)
 console.log(first,"first")
  console.log(last, "last")
+let occurance = last - first + 1;
+
+console.log(occurance , "occurrance")
